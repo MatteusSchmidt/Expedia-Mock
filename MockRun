@@ -1,0 +1,80 @@
+This is output.
+>> This is input
+
+Welcome to the travel system.
+Do you want login, create account, or exit?
+>> login
+Enter username
+>> matteus
+Enter password
+>> 123
+Password must be at least 8 characters long
+>>hellohello
+Password must include one number and one Uppercase character
+>>Hello241
+
+------------------------------------------------------------
+Welcome to Expedia.
+
+1. Edit Profile
+2. Logout
+3. Plan a trip
+4. Sell a Services.Service
+5. Quit
+------------------------------------------------------------
+>> 4
+
+You must be a paid member to sell a service
+------------------------------------------------------------
+Welcome to Expedia.
+
+1. Edit Profile
+2. Logout
+3. Plan a trip
+4. Sell a Services.Service
+5. Logout/Quit
+------------------------------------------------------------
+>> 3
+
+Would where would you like to travel?
+>> Dallas
+
+Choose from: (enter the corresponding number)
+1. Dallas, TX
+2. Dallas Georgia
+>> 1
+
+Wonderful! Would you like to book a Services.Hotel, Car, or Services.Flight?
+>> Services.Flight
+
+Where are you traveling from?
+>> Los Angeles, CA
+
+OK! Almost done!
+Select from the following flights from Los Angeles, CA to Dallas, TX:
+    (enter the corresponding number)
+
+1. 11AM - $300 - Main Cabin - American
+2. 10PM - $450 - First Class - Delta
+3. Sort by: Price
+>> 1
+Services.Flight added to Services.Itinerary
+------------------------------------------------------------
+Would you like to add a Services.Hotel Booking or Car Rental?
+    (yes/no)
+>> no
+Your final total is $300
+------------------------------------------------------------
+Welcome to Expedia.
+
+1. Edit Profile
+2. Logout
+3. Plan a trip
+4. Sell a Services.Service
+5. Logout/Quit
+------------------------------------------------------------
+...
+and so on, purchasing a hotel and car will be in the same manner, but car rentals will be stagnant data,
+pricing will be dependant on Services.Enums.CarType.
+
+
